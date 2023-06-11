@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lekha- Developer Portfolio</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style> 
+    *{ 
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(0,0,33);
+        color:white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(18,18,62);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover{
+      color: rgb(162, 162, 198);
+      font-size: 1.05rem;
+    }
+
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+        margin-top: 150px;
+    }
+
+    .left{
+        font-size: 1.5rem;
+    }
+
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+    }
+
+    .firstsection > div{
+        width: 30%;
+     
+    }
+
+    .leftsection{
+        margin-top: 150px;
+        font-size: 2.5rem;
+        align-items: center;
+    }
+
+    .leftsection .buttons{
+        padding: 5px 0;
+    }
+
+    .leftsection .btn{
+       padding: 4px;
+       background: #1e2167;
+       color: white;
+       border: 2px solid white;
+       border-radius: 6px;
+       font-size: 17px;
+       cursor: pointer;
+    }
+
+    .rightsection img{
+      width: 80%;
+      margin-top: 80px;
+    }
+
+    .text-purple{
+        color: rgb(143, 60, 221);
+    }
+
+    #element{
+        color: rgb(143, 60, 221) ;
+    }
+
+    .secondsection{
+        height: 80vh;
+        max-width: 80vw;
+        margin: auto;
+    }
+
+    .secondsection h1{
+        font-size: 1.5rem;
+        height: 10vh;
+    }
+
+    .text-gray{
+        color: gray;
+    }
+
+    .secondsection .box{
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 5px 0;
+       display: flex;
+      
+    }
+
+    .secondsection .vertical{
+        background-color: white;
+        height: 93px;
+        width:1px;
+        margin: 0 120px;
+    }
+
+   .img-top{
+        width: 23px;
+        position: relative;
+        top:-32px;
+        left:-9px;
+    }
+
+    .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+    }
+
+    .vertical-desc{
+        position: relative;
+        top:86px;
+    }
+
+    footer{
+        background-color: #0e0e1a;
+        
+    }
+
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul{
+        list-style: none;
+    }
+
+    .footer > div{
+        width: 223px;
+    }
+
+    .footer-rights{
+        color: gray;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Lekha's Portfolio</div>
+             <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+             </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="text-purple">Lekha</span> 
+             <div>And I'm a passionate </div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            </div>
+            <div class="rightsection">
+              <img src="bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        
+
+        </section>
+    </main>
+
+    <footer>
+     <div class="footer">
+        <div class="footer-first">
+            <h3>Lekha's Developer Portfolio </h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+     </div>
+     <div class="footer-rights">copyright &#169;lekhasportfolio.com | All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Graphic Designer.','Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
